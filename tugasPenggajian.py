@@ -2,15 +2,15 @@ class Employee:
 
     def __init__(self):
 
-        self.name = input ("Masukan Nama: ")
+        self.name = input ("Masukan Nama : ")
 
-        self.salary = int(input("Jumlah Gaji: "))
+        self.salary = int(input ("Nominal Gaji : "))
 
-        self.grade = int(input("Grade: "))
+        self.grade = int(input ("Masukan Grade: "))
 
-        self.num_children = int(input("Jumlah Anak: "))
+        self.num_children = int(input ("Jumlah Anak : "))
 
-        self.married = input("Menikah? ")
+        self.married = input ("Menikah? (ya/tidak) :")
 
     def get_salary(self):
 
@@ -96,13 +96,14 @@ class Employee:
 
         totall = total_salary - tax + bonus  
     
-        '''print (allowance_grade)
-        print (allowance_children)
-        print (allowance_spouse)
-        print (total_salary)
-        print (tax)
-        print (bonus)'''
-        print ("Total Gaji: ",totall)
+        print ("\n","-"*50)
+        print ("Tunjangan Golongan : ", allowance_grade)
+        print ("Tunjangan Anak     : ", allowance_children)
+        print ("Tunjangan Istri    : ", allowance_spouse)
+        print ("Pajak              : ", tax)
+        print ("Bonus              : ", bonus)
+        print ("-"*40)
+        print ("\nTotal Gaji         : ",totall)
 
 
 a = Employee()
