@@ -1,5 +1,5 @@
 # APLIKASI PENGGAJIAN
-Aplikasi penggajian ini adalah tugas dari mata kuliah PBO, dalam aplikasi ini user dapat melakukan perhitungan total gaji karyawan dengan mudah.
+Aplikasi penggajian ini adalah tugas dari mata kuliah OOP, dalam aplikasi ini user dapat melakukan perhitungan total gaji karyawan dengan mudah.
 
 ### Penjelasan Program
 Pembuatan Class
