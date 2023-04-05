@@ -10,15 +10,15 @@ Fungsi input() dipanggil dalam def _ _ init _ _(self):
 ```sh
 def __init__(self):
 
-        self.name = input ("Masukan Nama: ")
+        self.name = input ("Masukan Nama : ")
 
-        self.salary = int(input("Jumlah Gaji: "))
+        self.salary = int(input ("Nominal Gaji : "))
 
-        self.grade = int(input("Grade: "))
+        self.grade = int(input ("Masukan Grade: "))
 
-        self.num_children = int(input("Jumlah Anak: "))
+        self.num_children = int(input ("Jumlah Anak : "))
 
-        self.married = input("Menikah? ")
+        self.married = input ("Menikah? (ya/tidak) :")
 ```
 Perhitungan gaji ada dalam fungsi get_salary ()
 ```sh
