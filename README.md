@@ -96,6 +96,8 @@ return total_salaryy
 ```
 
 Input :
+Proses input data dilakukan di luar kelas. User mengisikan data yang diperlukan dan setelah semua inputan terisi maka hasil akan muncul.
+Ketika hasil sudah ditampilkan maka akan muncul opsi untuk melakukan proses perhitungan  baru atau mengakhiri sesi.
 ```sh
 loopp = "y"
 while loopp == "y" :
